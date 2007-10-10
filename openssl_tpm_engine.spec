@@ -10,6 +10,7 @@ Patch0:		openssl_tpm_engine-avoid-version.diff
 BuildRequires:	libtool
 BuildRequires:	autoconf2.5
 BuildRequires:	openssl-devel
+BuildRequires:	trousers-devel
 Requires:	openssl
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
