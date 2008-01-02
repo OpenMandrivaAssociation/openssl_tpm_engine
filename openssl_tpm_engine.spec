@@ -12,6 +12,7 @@ BuildRequires:	autoconf2.5
 BuildRequires:	openssl-devel
 BuildRequires:	trousers-devel
 Requires:	openssl
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 This package contains 2 sets of code, a command-line utility used to generate a
