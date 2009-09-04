@@ -1,7 +1,7 @@
 Summary:	OpenSSL TPM engine
 Name:		openssl_tpm_engine
 Version:	0.4.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	CPL
 Group:		System/Servers
 URL:		http://www.sf.net/projects/trousers
