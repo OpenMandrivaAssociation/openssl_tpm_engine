@@ -1,0 +1,10 @@
+--- Makefile.am	2007-02-05 21:32:09.000000000 +0100
++++ Makefile.am.oden	2007-09-18 15:37:58.000000000 +0200
+@@ -9,6 +9,7 @@
+ libtpm_la_LIBADD=-L@OPENSSL_LIB_DIR@ -lcrypto -lc
+ libtpm_la_CFLAGS=-I@OPENSSL_INCLUDE_DIR@
+ libtpm_la_SOURCES=e_tpm.c e_tpm.h e_tpm_err.c
++libtpm_la_LDFLAGS=-avoid-version -module
+ 
+ create_tpm_key_SOURCES=create_tpm_key.c
+ create_tpm_key_LDADD=-ltspi
