@@ -4,7 +4,7 @@ Version:	0.4.1
 Release:	%mkrel 5
 License:	CPL
 Group:		System/Servers
-URL:		http://www.sf.net/projects/trousers
+URL:		https://www.sf.net/projects/trousers
 Source0:	http://downloads.sourceforge.net/trousers/%{name}-%{version}.tar.gz
 Patch0:		openssl_tpm_engine-avoid-version.diff
 BuildRequires:	libtool
