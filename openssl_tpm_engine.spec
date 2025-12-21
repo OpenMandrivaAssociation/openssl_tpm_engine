@@ -7,6 +7,10 @@ Group:		System/Servers
 URL:		https://www.sf.net/projects/trousers
 Source0:	http://downloads.sourceforge.net/trousers/%{name}-%{version}.tar.gz
 Patch0:		openssl_tpm_engine-avoid-version.diff
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libtool
 BuildRequires:	autoconf2.5
 BuildRequires:	openssl-devel
